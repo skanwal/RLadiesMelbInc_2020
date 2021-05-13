@@ -4,6 +4,10 @@ author: "Sehrish Kanwal - 2020 President"
 date: "February 2020"
 output:
   html_document:
+    includes:
+      after_body:
+      - header.html
+      - footer.html
     theme: cosmo
     toc: yes
   word_document:
@@ -39,7 +43,7 @@ img <- readPNG("./photos/cities.png")
 grid.raster(img)
 ```
 
-Despite ongoing challenges with respect to to covid19 outbreak and pandemic declaration, The R-Ladies Melb had an amazing year in 2020; ......... not only we registered the R-Ladies Melb as an incorporation, but also we received the Kellaway Excellence for Education Award from the Walter and Eliza Hall Institute of Medical Research (WEHI), hosted amazing speakers such as Alison and Hadley from RStudio and Melina from the editorial board of rOpensSci, and contributed in teaching to high school girls. Below are the highlights of R-Ladies Melb in 2019!
+Despite ongoing challenges with respect to to covid19 outbreak and pandemic declaration, The R-Ladies Melb had an amazing year in 2020; not only we arranged seminars on exciting topics but also executed worshops via online meet-up. 
 
 # AGM 2019 and handover to new leadership
 
@@ -55,16 +59,14 @@ img <- readPNG("./photos/agm.png")
 grid.raster(img)
 ```
 
-I would like to give shoutout to [Momeneh Foroutan](https://twitter.com/S_Foroutan), who was the outgoing President and is current member of the Advisory board. She continues to be a great support for the team. 
-
-Below are the team organisers for the year 2020 and their susequent roles.
+I would like to give shoutout to [Momeneh Foroutan](https://twitter.com/S_Foroutan), who was the outgoing President and is current member of the Advisory board. She continues to be a great support for the team. Below are the team organisers for the year 2020 and their susequent roles.
 
 ```{r, echo=FALSE, fig.cap="R-Ladies Melb Inc Committee Members and Organisers",echo=FALSE, fig.align="center", out.width = '90%', fig.asp = 0.5}
 img <- readPNG("./photos/organisers.png")
 grid.raster(img)
 ```
 
-After calling for volounteers to be organisers of this group, we are very pleased to have ..........
+After calling for volounteers to be organisers of this group, we are very pleased to have Evie Gizem, [Bocong Zhao](https://twitter.com/bocong12?lang=en), Caitlin Bourke and Stephanie Studniberg. 
 
 # Advisory board
 

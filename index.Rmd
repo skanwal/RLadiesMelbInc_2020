@@ -76,7 +76,7 @@ In the next few sections, this report will discuss some of the highlights from t
 
 ## Seminars
 
-** Package development and publication to CRAN **
+### Package development and publication to CRAN
 
 Coinciding with women in mathematics day, [Virginia Liu](https://twitter.com/LiuVirginia8) gave a virtual talk on development and publication of her rstats package `binovisualfields`. We were especially excited for this talk as it was first of series of online events of R-Ladies Mebourne after a short break for planning and re-organisation. We interactively explored the shiny application of `binovisualfields` and learnt some useful tricks for getting and rstats package ready for [CRAN](https://cran.r-project.org/).
 
@@ -85,7 +85,7 @@ img <- readPNG("./photos/VL.png")
 grid.raster(img)
 ```
 
-** Representation of women in statistics **
+### Representation of women in statistics
 
 We were very happy to have Vice-President of [Statistical Society of Australia](https://twitter.com/StatSocAus), [Jessica Kasza](https://twitter.com/JessKasza) who discussed how to make the stats community more welcoming and inclusive. She highlighted the need for speaking-up. If there is anything you're uncomfortable with, then say it. The difficult converstaions are important to bring a change. 
 
@@ -94,7 +94,7 @@ img <- readPNG("./photos/JK.png")
 grid.raster(img)
 ```
 
-** R and more R **
+### R and more R
 
 It is safe to say that you can never learn too much R. We had a couple very interesting talks on `R` related topics.
 
@@ -116,16 +116,11 @@ grid.raster(img)
 
 In the past, we have received specific feedback from the community on the topics they were particularly interested in. Keeping these in mind, we arranged following workshops for our members.
 
-** Public speaking **
+### Public speaking
 
 We were thrilled to have TEDx speaker trainer, Jo Evans, who shared with us tips on mastering the art of communication. She is not only an incredible speaker but also a passionate instructor. She kept her virtual audience engaged by using fun activities and interesting questions. One take away message that she stressed on was "Public speaking is a skil. Learning it will change your life". While some people may have more natural speaking ability than others, anyone can learn to be a better public speaker. It just takes some know-how and some effort. 
 
-```{r, echo=FALSE, fig.cap="Development and publication of her rstats package",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
-img <- readPNG("./photos/JE.png")
-grid.raster(img)
-```
-
-** Resume writing **
+### Resume writing
 
 The resume guru, Tahlia Marks, joined us to share tips when it comes to searching,applying and interviewing for jobs. She stressed on the "confidence", which is key to preparation for any interview. After all, a resume is often the very first point of contact between you and your next potential employer. It's the first impression you get to make, and with a well-written professional resume, it could be one of many more to come. It is also important to have a concise timeline of skills relevant to the advertised position. Practice is key - the more you practice answers to typical question, the more confident you feel.
 
@@ -137,18 +132,8 @@ Apart from educational and soft skills development events, we orgnaised followin
 
 To celebrate R-Ladies Melbourne 4th anniversary with the R-Ladies community, we arranged "How R you?" format event. One of the stremgths of R-Ladies community is the spirit of "Open Science" to encourage learning. This event provided our members with an opportunity to share `R` related tips and tricks for simple questions such as "I wonder how my friend is coding!" or "How would other people code this?" or "What's their favourite R tip?". We also distributed prices such as our fabulous earings and book vouchers for the best/most interesting tips. 
 
-```{r, echo=FALSE, fig.cap="Our fabulous earrings",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
-img <- readPNG("./photos/anniversary.png")
-grid.raster(img)
-```
-
-```{r, echo=FALSE, fig.cap="Sneek peek of tips shared by the community",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
-img <- readPNG("./photos/anniversary2.png")
-grid.raster(img)
-```
-
-```{r, echo=FALSE, fig.cap="A lovely shot from our birthday celebration",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
-img <- readPNG("./photos/anniversary3.png")
+```{r, echo=FALSE, fig.cap="Our fabulous earrings, sneek peek of tips shared by the community and a lovely shot from our birthday celebration ",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/ann.png")
 grid.raster(img)
 ```
 
@@ -172,21 +157,20 @@ Asked Shazia
 
 # My personal remarks
 
+I became official member of R-ladies Melbourne in 2019 after attending few events. I was really impressed by the management and content of these events and decided to get involved with the team. All the co-organisers were really welcoming and helped me with getting started. After a year of becomming a member, I was offered to take role of "President". Initially, I was reluctant as wasn't sure if I would be able to take-up this responsibility and deliver according to expectations. Sepideh, the out-going President, provided great reassurnace and support. With out any doubt, it has been one of the best decisions I had taken. Not only, it was a great learning experince but I also made so many close friends and contacts.
+
+By nature, I am a friendly and easy going person. So, one thing I found particularly challenging was delegating and following-up on tasks multiple times. With time and experience, I learnt dealing with it and how to benefit from it an essential part of my responsibility. This part makes leadership beneficial not only for professional growth, but for personal one too. Few other skills that I learnt during this year was successful communication, time management, self discipline, dealing with criticism, resolving conflict and team work.
+
 ## An unexpected year
 
 As we all know, pandemic happened in early 2020, that affected many of us including R-Ladies Melbourne. The economic and social disruption caused by the pandemic was devastating and we all struggled to adapt to the challenges that later became a norm for the community. The terms such as “lockdown,” “mask mandates” and “social distancing” were unknown to most of us. Today they are part of our everyday language as the COVID-19 pandemic continues to impact our society. However, we all quickly adapted to the changed lifestyle and "online events" emerged as a life savor in these critical times. After taking a quick two months break for planning, we moved our events to online setting as well, which will be discussed in detail later in this report. 
 
-Our meeting this evening was #zoom bombed Face with open mouth Loud music and taking over the screen share. PSA: Beware what links you share in the public domain!
+I also faced few challenges during this journey. One of our meetings were zoom bombed. Soemone kept sharing face with open mouth, loud music and taking over the screen share. We resonded quickly, stopped the meeting and urgently created a new link to shre with our attendees privately. Towards the end of the year, I delivered my second kid. As I was away recovering, Marie, our Vice President, stepped-up to take my resposnibilites. The team as a whole were great upport and continued endeavoring without any issues.  
 
-I have been involved in the R-Ladies Melb chapter since the beginning, and for over three years now; two years as a co-organiser and last year as the president. During this time, I have learnt so much, not only about R and data analysis tools, but also about how to successfully organise events and how to share the work load as a team. I learnt so much about incorporations, found many new friends outside of academia, and expanded my network within academia.
+Based on all the great experience that I have had as a member of this community, **I strongly encourage you to consider joining the group as a co-organiser**. Taking-up leadership role helps you learn self-confidence, which in my opinion, is one of the most importnat skills. Above all, leadership helps building strong character. Honesty, integrity, humility, patience, perseverance, self-discipline – all of these are developed in the crucible of leadership.The values you learn as a leader can improve your personal life and relationships and set you on the fast track to success in your career.
 
-It was a great but challenging experience to lead the team as the president. As a perfectionist, I always used to do everything myself, and so it was not easy to **delegate work to people**, but I am glad that I learnt this with help from other members, specifically, Marie and Goknur, whose encouragement and feedback gave me more confidence in my role as a leader. One thing that I used to do naturally though, was that I always **ask the committee members' opinions** on matters as it gave me a feeling that everyone is happy with a decision. 
+In the end, I would like to thank all **organisers** of R-Ladies, from whom I learnt so much and received great support. Our incredible **speakers** for taking tme out to share their knowledge and experience. Above all, our **community**, who keeps us going by providing encouragement and continuing support.    
 
-**It has not been just about R!** This has been also about ourselves, our barriers and challenges. I believe the R-Ladies is a family where people offer support to each other! Sometimes this support is in the form of workshops or seminars, where people develop skills, which in turn can contribute to a [more inclusive data science world](https://qz.com/work/1661486/r-ladies-made-data-science-inclusive/), but other times, this support is in the form of friendship. I have experienced enormous amount of mental support from the members of R-Ladies Melb, particularly when I was hospitalised due to an accident early in 2019 and it was quite difficult to get back to my routine. I know other members in the team, such as Goknur as mentioned above, also benefited from the friendly and supportive environment in this family.
-
-Based on all the great experience that I have had as a member of this community, **I strongly encourage you to consider joining the group as a co-organiser**. You can learn so much by doing so and see how rewarding it is! You will also be recognised for your contribution as we were, and of course it looks good on your CV! I am sure you will love being a part of this community, as we all do. 
-
-In the end, I would like to thank every one of the past and the present **organisers** of R-Ladies, all our great **speakers** who shared their knowledge with our community in order to get them started using/making tools or advance their skills. It is obvious that without the **members in our local community** we would not be able to continue, and without the support that we get from the larger **community of R-Ladies** around the world we could not develop over time. It has been always the members' enthusiasm and the community's support that encouraged us to continue. THANK YOU!!
 
 # Sponsors
 Undoubtedly, without our faithful sponsors, we have not been able to be where we are today. A great thanks to all of them for their great support over years!

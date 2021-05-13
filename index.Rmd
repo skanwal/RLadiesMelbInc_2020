@@ -1,0 +1,222 @@
+---
+title: "R-Ladies Melbourne Inc 2020 highlights"
+author: "Sehrish Kanwal - 2020 President"
+date: "February 2020"
+output:
+  html_document:
+    theme: cosmo
+    toc: yes
+  word_document:
+    toc: yes
+  pdf_document:
+    toc: yes
+  github_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(magick)
+library(png)
+library(grid)
+# devtools::install_github("hadley/emo")
+# devtools::install_github("ropenscilabs/icon")
+library(emo)
+library(icon)
+
+```
+
+Firstly, quick overview of who we are and where we are at!
+
+# R-Ladies chapters in Australia
+
+R-Ladies Melbourne is one of the chapters of R-Ladies community that has 206 chapters, 89065 memebers (as of today), across 57 countries [source](https://benubah.github.io/r-community-explorer/rladies.html). As we mentioned [before](https://momenehforoutan.github.io/RLadiesMelbInc_2019/_), the R-Ladies Melbourne chapter was founded as the first R-Ladies chapter in Australia in Sep, 2016. 
+
+Over the last four years, the R-Ladies Melb has had growing number of members, and today we are glad to have close to 1797 members in our [local community](https://www.meetup.com/en-AU/rladies-melbourne). This shows the need and interest in the gender specific group for women that advocates for need for inclusion and diversity in the R community. This is further shown in the chart below that compares -Lladies cities against number of memebers in the region.
+
+```{r, echo=FALSE, fig.cap=" Top 5 cities with most numebr of members",echo=FALSE, fig.align="center", out.width = '90%'}
+img <- readPNG("./photos/cities.png")
+grid.raster(img)
+```
+
+Despite ongoing challenges with respect to to covid19 outbreak and pandemic declaration, The R-Ladies Melb had an amazing year in 2020; ......... not only we registered the R-Ladies Melb as an incorporation, but also we received the Kellaway Excellence for Education Award from the Walter and Eliza Hall Institute of Medical Research (WEHI), hosted amazing speakers such as Alison and Hadley from RStudio and Melina from the editorial board of rOpensSci, and contributed in teaching to high school girls. Below are the highlights of R-Ladies Melb in 2019!
+
+# AGM 2019 and handover to new leadership
+
+We had our virtual annual general meeting in April, 2020 and selected new leadership members. 
+
+* Sehrish Kanwal [President](https://twitter.com/skanwal23)
+* Marie Trussart [Vice-President](https://twitter.com/MTrussart)
+* Shazia Ruybal [Secretarty](https://twitter.com/DrShaziaRuybal)
+* Adele Barug [Treasurer](https://twitter.com/technadele)
+
+```{r, echo=FALSE, fig.cap="AGM 2020",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/agm.jpg")
+grid.raster(img)
+```
+
+I would like to give shoutout to [Momeneh Foroutan](https://twitter.com/S_Foroutan), who was the outgoing President and is current member of the Advisory board. She continues to be a great support for the team. 
+
+Below are the team organisers for the year 2020 and their susequent roles.
+
+```{r, echo=FALSE, fig.cap="R-Ladies Melb Inc Committee Members and Organisers",echo=FALSE, fig.align="center", out.width = '90%', fig.asp = 0.5}
+img <- readPNG("./photos/RLadies_organisers.png")
+grid.raster(img)
+```
+
+After calling for volounteers to be organisers of this group, we are very pleased to have ..........
+
+# Advisory board
+
+In additon to formal and internal roles that have been previously described in detail [here](https://momenehforoutan.github.io/RLadiesMelbInc_2019/), we introduced the notion of "Advisory board" members. We were pleased to have two of our previous memebrs [Momeneh Foroutan](https://twitter.com/S_Foroutan) and [Goknur Giner](https://twitter.com/goknurginer) as our first advisory borad member. Both of them are the founder of R-Ladies Melbourne group, hence have a very rich understanding nd experience about the group working. We also formally declared who can be part of the advisory board, their responsibilites, participation requirements and the total number of members.   
+
+# Event Highlights
+
+In the next few sections, this report will discuss some of the highlights from the year 2020-2021.
+
+## Seminars
+
+** Package development and publication to CRAN **
+
+Coinciding with women in mathematics day, [Virginia Liu](https://twitter.com/LiuVirginia8) gave a virtual talk on development and publication of her rstats package `binovisualfields`. We were especially excited for this talk as it was first of series of online events of R-Ladies Mebourne after a short break for planning and re-organisation. We interactively explored the shiny application of `binovisualfields` and learnt some useful tricks for getting and rstats package ready for [CRAN](https://cran.r-project.org/).
+
+```{r, echo=FALSE, fig.cap="Development and publication of her rstats package",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/VL.jpg")
+grid.raster(img)
+```
+
+** Representation of women in statistics **
+
+We were very happy to have Vice-President of [Statistical Society of Australia](https://twitter.com/StatSocAus), [Jessica Kasza](https://twitter.com/JessKasza) who discussed how to make the stats community more welcoming and inclusive. She highlighted the need for speaking-up. If there is anything you're uncomfortable with, then say it. The difficult converstaions are important to bring a change. 
+
+```{r, echo=FALSE, fig.cap="Development and publication of rstats package",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/JK.png")
+grid.raster(img)
+```
+
+** R and more R **
+
+It is safe to say that you can never learn too much R. We had a couple very interesting talks on `R` related topics.
+
+R-Ladies Melbourne team member [Daidai](https://twitter.com/Daidaidai2014), talked about R Markdown and its use to integrate analysis and data story telling. Daidai described how we can keep your data science projects organized with RStudio so that re-running an analysis is straight-forward. This is possible due to the fact that R markdown documents permit code and textual descriptions to be combined into the same document, and the figures and tables produced by the code are automatically added to the document. We also discussed practical examples of few of the challenging questions that can be solved effectively using `R`.   
+
+```{r, echo=FALSE, fig.cap="RMarkdown usage",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/dai.png")
+grid.raster(img)
+```
+
+[Alice Sweeting](https://twitter.com/alicesweeting) joined us in the a seminar to share how the physical and skilled outputs of team-sport athletes can be analysed to gain insights into matches and training. She shared insights into usage of `R` in sport science and various useful rstats packages as part of scientific communication involves written, visually pleasing reports. Most sport science jobs require individuals to compile (usually many!) reports on testing results, performance outputs or GPS summaries, for example. Alice shared practical examples with our audience to produce these. 
+
+```{r, echo=FALSE, fig.cap="Development and publication of her rstats package",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/AS.jpeg")
+grid.raster(img)
+```
+
+## Workshops
+
+In the past, we have received specific feedback from the community on the topics they were particularly interested in. Keeping these in mind, we arranged following workshops for our members.
+
+** Public speaking **
+
+We were thrilled to have TEDx speaker trainer, Jo Evans, who shared with us tips on mastering the art of communication. She is not only an incredible speaker but also a passionate instructor. She kept her virtual audience engaged by using fun activities and interesting questions. One take away message that she stressed on was "Public speaking is a skil. Learning it will change your life". While some people may have more natural speaking ability than others, anyone can learn to be a better public speaker. It just takes some know-how and some effort. 
+
+```{r, echo=FALSE, fig.cap="Development and publication of her rstats package",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/JE.jpeg")
+grid.raster(img)
+```
+
+** Resume writing **
+
+The resume guru, Tahlia Marks, joined us to share tips when it comes to searching,applying and interviewing for jobs. She stressed on the "confidence", which is key to preparation for any interview. After all, a resume is often the very first point of contact between you and your next potential employer. It's the first impression you get to make, and with a well-written professional resume, it could be one of many more to come. It is also important to have a concise timeline of skills relevant to the advertised position. Practice is key - the more you practice answers to typical question, the more confident you feel.
+
+# Other events
+
+Apart from educational and soft skills development events, we orgnaised following fun filled events for our members.
+
+## R-Ladies Melbourne 4th Anniversary
+
+To celebrate R-Ladies Melbourne 4th anniversary with the R-Ladies community, we arranged "How R you?" format event. One of the stremgths of R-Ladies community is the spirit of "Open Science" to encourage learning. This event provided our members with an opportunity to share `R` related tips and tricks for simple questions such as "I wonder how my friend is coding!" or "How would other people code this?" or "What's their favourite R tip?". We also distributed prices such as our fabulous earings and book vouchers for the best/most interesting tips. 
+
+```{r, echo=FALSE, fig.cap="Our fabulous earrings",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/anniversary.jpeg")
+grid.raster(img)
+```
+
+```{r, echo=FALSE, fig.cap="Sneek peek of tips shared by the community",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/anniversary2.jpeg")
+grid.raster(img)
+```
+
+```{r, echo=FALSE, fig.cap="A lovely shot from our birthday celebration",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/anniversary3.jpeg")
+grid.raster(img)
+```
+
+## Tidy Tuesday
+
+We also organised an event for collaborative data wrangling and visualisation using 23rd Tidy Tuesday [dataset](https://github.com/rfordatascience/tidytuesday). The goal of this effort was to apply R skills, get feedback, explore other’s work, and connect with the greater RStats community! As such we encouraged everyone of all skills to participate. Tidy Tuesday provides a weekly data project in R from the R4DS online learning community. One of the very interesting question explored was difference in women's pay among race and age group.
+
+```{r, echo=FALSE, fig.cap="Tidy tuesday dataset exploration",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+img <- readPNG("./photos/tidy.jpeg")
+grid.raster(img)
+```
+
+
+## Women's day
+
+After easing of the restrictions and cap on in-person meetups, we celebrated women's day all together by catching-up in person. It was a great opportunity to mingle, get to know each other better and celebrate our social, economic, cultural, scientific, and political achievements! This was our first in-person event after almost a year. We had great insightful discussion on topics such as how can we help forge a gender equal world, celebrate women's achievement and raise awareness against bias.
+
+## RStudio global diversity scholar workshop
+
+Asked Shazia
+
+# My personal remarks
+
+## An unexpected year
+
+As we all know, pandemic happened in early 2020, that affected many of us including R-Ladies Melbourne. The economic and social disruption caused by the pandemic was devastating and we all struggled to adapt to the challenges that later became a norm for the community. The terms such as “lockdown,” “mask mandates” and “social distancing” were unknown to most of us. Today they are part of our everyday language as the COVID-19 pandemic continues to impact our society. However, we all quickly adapted to the changed lifestyle and "online events" emerged as a life savor in these critical times. After taking a quick two months break for planning, we moved our events to online setting as well, which will be discussed in detail later in this report. 
+
+Our meeting this evening was #zoom bombed Face with open mouth Loud music and taking over the screen share. PSA: Beware what links you share in the public domain!
+
+I have been involved in the R-Ladies Melb chapter since the beginning, and for over three years now; two years as a co-organiser and last year as the president. During this time, I have learnt so much, not only about R and data analysis tools, but also about how to successfully organise events and how to share the work load as a team. I learnt so much about incorporations, found many new friends outside of academia, and expanded my network within academia.
+
+It was a great but challenging experience to lead the team as the president. As a perfectionist, I always used to do everything myself, and so it was not easy to **delegate work to people**, but I am glad that I learnt this with help from other members, specifically, Marie and Goknur, whose encouragement and feedback gave me more confidence in my role as a leader. One thing that I used to do naturally though, was that I always **ask the committee members' opinions** on matters as it gave me a feeling that everyone is happy with a decision. 
+
+**It has not been just about R!** This has been also about ourselves, our barriers and challenges. I believe the R-Ladies is a family where people offer support to each other! Sometimes this support is in the form of workshops or seminars, where people develop skills, which in turn can contribute to a [more inclusive data science world](https://qz.com/work/1661486/r-ladies-made-data-science-inclusive/), but other times, this support is in the form of friendship. I have experienced enormous amount of mental support from the members of R-Ladies Melb, particularly when I was hospitalised due to an accident early in 2019 and it was quite difficult to get back to my routine. I know other members in the team, such as Goknur as mentioned above, also benefited from the friendly and supportive environment in this family.
+
+Based on all the great experience that I have had as a member of this community, **I strongly encourage you to consider joining the group as a co-organiser**. You can learn so much by doing so and see how rewarding it is! You will also be recognised for your contribution as we were, and of course it looks good on your CV! I am sure you will love being a part of this community, as we all do. 
+
+In the end, I would like to thank every one of the past and the present **organisers** of R-Ladies, all our great **speakers** who shared their knowledge with our community in order to get them started using/making tools or advance their skills. It is obvious that without the **members in our local community** we would not be able to continue, and without the support that we get from the larger **community of R-Ladies** around the world we could not develop over time. It has been always the members' enthusiasm and the community's support that encouraged us to continue. THANK YOU!!
+
+# Sponsors
+Undoubtedly, without our faithful sponsors, we have not been able to be where we are today. A great thanks to all of them for their great support over years!
+```{r, echo=FALSE, fig.cap="Our Amazing sponsors and the stunning view from the venue provided by NOUS",echo=FALSE, fig.align="center", out.width = '90%', fig.asp = 0.7}
+img <- readPNG("./photos/RLadies_Sponsors.png")
+grid.raster(img)
+```
+
+Since R-Ladies Melbourne have become a registered organization, we have started looking into governmnet grants to support and extend our acitivities. We have specifically looked into [Women in Stem and Enterpreneurship](https://www.business.gov.au/Grants-and-Programs/Women-in-STEM-and-Entrepreneurship?s=03) that aims to encourage participation of girls and women in science, technology, engineering and mathematics leading to STEM education and careers. [Marie](https://twitter.com/MTrussart) proposed and led this effort. Additonally, we applied for a government [grant](https://www.business.gov.au/CSG#key-documents) that provides funds for scientific research projects with a national impact that engage the public as citizen scientists. Di Cook, who is one of our most faithful memebr led this effort. We continue to look into and explore such opportunities.
+
+# Testimonial
+We are very grateful to **Lavinia Gordon** and **Alison Hill**, two of our speakers in 2019, for their lovely testimonials. This is our great pleasure to have hosted them, and their positive comments about R-Ladies Melb chapter is a strong motivation for all of us!
+
+> _"It was a delight and an honour to have an opportunity to present at an R-Ladies Melb event. R-Ladies Melb work hard to foster a welcoming community that encourages learning via social and collaborative sharing. Their focus is on supporting and promoting underrepresented genders, but they are inclusive in their participation. They are a positive force for good, and I hope that 2020 brings them bigger and better things."_
+>
+> `r tufte::quote_footer('--- Lavinia Gordon')`
+
+> _"Giving a talk for RLadies Melbourne is one of the standout moments for me in my career at RStudio so far. Having been an RLadies organizer, I know that it takes more than good speakers and an engaged user base to run a successful chapter. It takes time and energy to be sure, but most importantly, it takes consistently delivering high-quality events so that you build trust within your community. RLadies Melbourne is a great model for how to run an RLadies chapter that fully supports the global mission of encouraging, inspiring, and empowering people of genders currently underrepresented in the R community."_
+>
+> `r tufte::quote_footer('--- Alison Hill')`
+
+# Find us 
+Finally, do not forget to follow the R-Ladies Melb Inc if you would like to be updated about us and our events; we do our best to record our events, and make all of our events' materials available on Github.
+
+* `r icon::fa("meetup",colour = "#88398A")` [Meetup](https://www.meetup.com/R-Ladies-Melbourne/)
+* `r icon::fa("twitter",colour = "#88398A")` [Twitter](https://twitter.com/RLadiesMelb)
+* `r icon::fa("facebook",colour = "#88398A")` [Facebook](https://www.facebook.com/RladiesMelbourne/)
+* `r icon::fa("github",colour = "#88398A")` [Github](https://github.com/R-LadiesMelbourne)
+* `r icon::fa("linkedin",colour = "#88398A")` [LinkedIN](https://www.linkedin.com/company/14675970/admin/)
+* `r icon::fa("youtube",colour = "#88398A")` [YouTube](https://www.youtube.com/channel/UClC5yNEjMoE3MmbK-mrV8Ow/videos)
+
+# Aknowledgements
+I would like to thank Marie, Shazia and Anna for their valuable feedback about this document.

@@ -34,20 +34,20 @@ Firstly, quick overview of who we are and where we are at!
 
 # R-Ladies chapters in Australia
 
-R-Ladies Melbourne is one of the chapters of R-Ladies community that has 206 chapters, 89065 memebers (as of today), across 57 countries [source](https://benubah.github.io/r-community-explorer/rladies.html). As we mentioned [before](https://momenehforoutan.github.io/RLadiesMelbInc_2019/_), the R-Ladies Melbourne chapter was founded as the first R-Ladies chapter in Australia in Sep, 2016. 
+R-Ladies Melbourne is one of the chapters of R-Ladies community that has 206 chapters, 89065 memebers (as of today), across 57 countries ([source](https://benubah.github.io/r-community-explorer/rladies.html)). As we mentioned [before](https://momenehforoutan.github.io/RLadiesMelbInc_2019/_), the R-Ladies Melbourne chapter was founded as the first R-Ladies chapter in Australia in Sep, 2016. 
 
-Over the last four years, the R-Ladies Melb has had growing number of members, and today we are glad to have close to 1797 members in our [local community](https://www.meetup.com/en-AU/rladies-melbourne). This shows the need and interest in the gender specific group for women that advocates for need for inclusion and diversity in the R community. This is further shown in the chart below that compares -Lladies cities against number of memebers in the region.
+Over the last four years, the R-Ladies Melbourne has had growing number of members, and today we are glad to have close to 1797 members in our [local community](https://www.meetup.com/en-AU/rladies-melbourne). This shows the need and interest in the gender specific group for women that advocates for need for inclusion and diversity in the R community. This is further shown in the chart below that compares R-Ladies cities against number of members in the region.
 
-```{r, echo=FALSE, fig.cap=" Top 5 cities with most numebr of members",echo=FALSE, fig.align="center", out.width = '90%'}
+```{r, echo=FALSE, fig.cap=" Top 5 cities with most number of members",echo=FALSE, fig.align="center", out.width = '90%'}
 img <- readPNG("./photos/cities.png")
 grid.raster(img)
 ```
 
-Despite ongoing challenges with respect to to covid19 outbreak and pandemic declaration, The R-Ladies Melb had an amazing year in 2020; not only we arranged seminars on exciting topics but also executed worshops via online meet-up. 
+Despite ongoing challenges with respect to to covid19 outbreak and pandemic declaration, The R-Ladies Melbourne had an amazing year in 2020; not only we arranged seminars on exciting topics but also executed worshops via online meet-up. 
 
 # AGM 2019 and handover to new leadership
 
-We had our virtual annual general meeting in April, 2020 and selected new leadership members. 
+We had our virtual annual general meeting in April, 2020 and selected following new leadership members. 
 
 * Sehrish Kanwal [President](https://twitter.com/skanwal23)
 * Marie Trussart [Vice-President](https://twitter.com/MTrussart)
@@ -66,13 +66,17 @@ img <- readPNG("./photos/organisers.png")
 grid.raster(img)
 ```
 
-After calling for volounteers to be organisers of this group, we are very pleased to have Evie Gizem, [Bocong Zhao](https://twitter.com/bocong12?lang=en), Caitlin Bourke and Stephanie Studniberg. 
+After calling for volounteers to be organisers of this group, we are very pleased to have Evie Gizem, [Bocong Zhao](https://twitter.com/bocong12?lang=en), Caitlin Bourke and Stephanie Studniberg. Caitlin Bourke shared her motivation and views about the group, which I believe is a great encouragement for people looking for a similar opportunity.
+
+> _"I was motivated to join the committee of RLadies Melbourne as I see it to be a wonderful opportunity to contribute to the efforts of RLadies Melbourne: supporting the R community in Melbourne and particularly providing a voice and resource to minority genders who are passionate about R. I am also excited to be amongst other like-minded R users in a community-minded environment to all share our experience and knowledge. I hope I can bring a fresh face to the committee with new ideas for engaging both new and existing users of R."_
+>
+> `r tufte::quote_footer('--- Caitlin Bourke')`
 
 # Advisory board
 
-In additon to formal and internal roles that have been previously described in detail [here](https://momenehforoutan.github.io/RLadiesMelbInc_2019/), we introduced the notion of "Advisory board" members. We were pleased to have two of our previous memebrs [Momeneh Foroutan](https://twitter.com/S_Foroutan) and [Goknur Giner](https://twitter.com/goknurginer) as our first advisory borad member. Both of them are the founder of R-Ladies Melbourne group, hence have a very rich understanding nd experience about the group working. We also formally declared who can be part of the advisory board, their responsibilites, participation requirements and the total number of members.   
+In additon to formal and internal roles that have been previously described in detail [here](https://momenehforoutan.github.io/RLadiesMelbInc_2019/), we introduced the notion of "Advisory board" members. We were pleased to have two of our previous memebrs [Momeneh Foroutan](https://twitter.com/S_Foroutan) and [Goknur Giner](https://twitter.com/goknurginer) as our first advisory borad member. Both of them are the founder of R-Ladies Melbourne group, hence have a very rich understanding and experience about the group working. We also formally declared who can be part of the advisory board, their responsibilites, participation requirements and the total number of members.   
 
-# Event Highlights
+# Event Highlights of the year
 
 In the next few sections, this report will discuss some of the highlights from the year 2020-2021.
 
@@ -161,7 +165,7 @@ Asked Shazia
 
 I became official member of R-ladies Melbourne in 2019 after attending few events. I was really impressed by the management and content of these events and decided to get involved with the team. All the co-organisers were really welcoming and helped me with getting started. After a year of becomming a member, I was offered to take role of "President". Initially, I was reluctant as wasn't sure if I would be able to take-up this responsibility and deliver according to expectations. Sepideh, the out-going President, provided great reassurnace and support. With out any doubt, it has been one of the best decisions I had taken. Not only, it was a great learning experince but I also made so many close friends and contacts.
 
-By nature, I am a friendly and easy going person. So, one thing I found particularly challenging was delegating and following-up on tasks multiple times. With time and experience, I learnt dealing with it and how to benefit from it an essential part of my responsibility. This part makes leadership beneficial not only for professional growth, but for personal one too. Few other skills that I learnt during this year was successful communication, time management, self discipline, dealing with criticism, resolving conflict and team work.
+By nature, I am a friendly and easy going person. So, one thing I found particularly challenging was delegating and following-up on tasks. With time and experience, I learnt dealing with it and how to benefit from it an essential part of my responsibility. This part makes leadership beneficial not only for professional growth, but for personal one too. Few other skills that I learnt during this year was successful communication, time management, self discipline, dealing with criticism, resolving conflict and team work.
 
 ## An unexpected year
 

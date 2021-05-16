@@ -95,7 +95,7 @@ grid.raster(img)
 
 We were very happy to have Vice-President of [Statistical Society of Australia](https://twitter.com/StatSocAus), [Jessica Kasza](https://twitter.com/JessKasza) who discussed how to make the stats community more welcoming and inclusive. She highlighted the need for speaking-up. If there is anything you're uncomfortable with, then say it. The difficult converstaions are important to bring a change. 
 
-```{r, echo=FALSE, fig.cap="Development and publication of rstats package",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+```{r, echo=FALSE, fig.cap="Lessons we should all remember",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
 img <- readPNG("./photos/JK.png")
 grid.raster(img)
 ```
@@ -113,7 +113,7 @@ grid.raster(img)
 
 [Alice Sweeting](https://twitter.com/alicesweeting) joined us in the a seminar to share how the physical and skilled outputs of team-sport athletes can be analysed to gain insights into matches and training. She shared insights into usage of `R` in sport science and various useful rstats packages as part of scientific communication involves written, visually pleasing reports. Most sport science jobs require individuals to compile (usually many!) reports on testing results, performance outputs or GPS summaries, for example. Alice shared practical examples with our audience to produce these. 
 
-```{r, echo=FALSE, fig.cap="Development and publication of her rstats package",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+```{r, echo=FALSE, fig.cap="R in sport science",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
 img <- readPNG("./photos/AS.png")
 grid.raster(img)
 ```
@@ -139,7 +139,7 @@ Apart from educational and soft skills development events, we orgnaised followin
 To celebrate R-Ladies Melbourne 4th anniversary with the R-Ladies community, we arranged "How R you?" format event. One of the stremgths of R-Ladies community is the spirit of "Open Science" to encourage learning. This event provided our members with an opportunity to share `R` related tips and tricks for simple questions such as "I wonder how my friend is coding!" or "How would other people code this?" or "What's their favourite R tip?". We also distributed prices such as our fabulous earings and book vouchers for the best/most interesting tips. 
 
 ```{r, echo=FALSE, fig.cap="Our fabulous earrings, sneek peek of tips shared by the community and a lovely shot from our birthday celebration ",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
-img <- readPNG("./photos/ann.png")
+img <- readPNG("./photos/anni.png")
 grid.raster(img)
 ```
 

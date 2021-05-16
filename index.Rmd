@@ -38,7 +38,7 @@ R-Ladies Melbourne is one of the chapters of R-Ladies community that has 206 cha
 
 Over the last four years, the R-Ladies Melbourne has had growing number of members, and today we are glad to have close to 1797 members in our [local community](https://www.meetup.com/en-AU/rladies-melbourne). This shows the need and interest in the gender specific group for women that advocates for need for inclusion and diversity in the R community. This is further shown in the chart below that compares R-Ladies cities against number of members in the region.
 
-```{r, echo=FALSE, fig.cap=" Top 5 cities with most number of members",echo=FALSE, fig.align="center", out.width = '90%'}
+```{r, echo=FALSE, fig.cap=" Top 5 cities with most number of members",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
 img <- readPNG("./photos/cities.png")
 grid.raster(img)
 ```
@@ -138,7 +138,7 @@ Apart from educational and soft skills development events, we orgnaised followin
 
 To celebrate R-Ladies Melbourne 4th anniversary with the R-Ladies community, we arranged "How R you?" format event. One of the stremgths of R-Ladies community is the spirit of "Open Science" to encourage learning. This event provided our members with an opportunity to share `R` related tips and tricks for simple questions such as "I wonder how my friend is coding!" or "How would other people code this?" or "What's their favourite R tip?". We also distributed prices such as our fabulous earings and book vouchers for the best/most interesting tips. 
 
-```{r, echo=FALSE, fig.cap="Our fabulous earrings, sneek peek of tips shared by the community and a lovely shot from our birthday celebration ",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.4}
+```{r, echo=FALSE, fig.cap="Our fabulous earrings, sneek peek of tips shared by the community and a lovely shot from our birthday celebration ",echo=FALSE, fig.align="center", out.width = '90%', fig.asp=0.8}
 img <- readPNG("./photos/anni.png")
 grid.raster(img)
 ```

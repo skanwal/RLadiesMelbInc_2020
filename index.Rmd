@@ -227,4 +227,4 @@ Finally, do not forget to follow the R-Ladies Melbourne Inc if you would like to
 * [YouTube](https://www.youtube.com/channel/UClC5yNEjMoE3MmbK-mrV8Ow/videos)
 
 # Acknowledgements
-I would like to thank [Marie](https://twitter.com/MTrussart), [Shazia](https://twitter.com/DrShaziaRuybal), [Sepideh](https://twitter.com/S_Foroutan) and [Anna](https://twitter.com/annaquagli?lang=en) for their valuable feedback about this document.
+I would like to thank [Marie](https://twitter.com/MTrussart), [Shazia](https://twitter.com/DrShaziaRuybal), [Sepideh](https://twitter.com/S_Foroutan) and [Anna](https://twitter.com/annaquagli?lang=en) for their valuable feedback on this document.

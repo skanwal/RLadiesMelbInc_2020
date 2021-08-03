@@ -2,4 +2,4 @@
 
 Written by Sehrish Kanwal
 
-Report is available [here](https://r-ladiesmelbourne.github.io/RLadiesMelbInc_2020/)
+Report is available [here](https://skanwal.github.io/RLadiesMelbInc_2020/)
